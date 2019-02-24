@@ -1,0 +1,24 @@
+{
+  "name": "rwd",
+  "version": "1.0.0",
+  "description": "Responcive Web Design",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --output-style compressed index.scss > styles.css",
+    "scss:watch": "node-sass -w --output-style compressed index.scss > styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluerat1976/rwd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluerat1976/rwd/issues"
+  },
+  "homepage": "https://github.com/bluerat1976/rwd#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
